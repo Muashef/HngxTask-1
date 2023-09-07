@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <main>
+      <div class="background">
+        <div class="time">
+          <p id="dayOfWeek" data-testid="currentDayOfTheWeek">
+            <!-- Display the day of the week here -->
+          </p>
+          <p id="currentTimeInMilliseconds" data-testid="currentUTCTime">
+            <!-- Display the current time here -->
+          </p>
+        </div>
+        <div class="container">
+          <div class="profile">
+            <img
+              src="./moh.jpeg"
+              alt="slack display image"
+              data-testid="slackDisplayImage"
+            />
+            <div class="details">
+              <h1
+                style="color: #000"
+                data-testid="slackUserName"
+              >
+                Sherif Muhammed
+              </h1>
+              <h3
+                style="color: #e74c3c"
+                data-testid="myTrack"
+              >
+                Frontend Track 
+              </h3>
+              <a
+                style="color: #3498db"
+                href="https://github.com/Muashef/HngxTask-1"
+                target="_blank"
+                data-testid="“githubURL”"
+              >
+                Task Repository</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
