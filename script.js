@@ -1,5 +1,4 @@
 const background = document.querySelector('.background');
-const hoverElements = document.querySelectorAll('.hover-element');
 const container = document.querySelector('.container');
 
 function displayDateTime() {
